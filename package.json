@@ -9,6 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@gumhq/react-sdk": "^2.0.3",
+    "@gumhq/ui-components": "^2.0.4",
+    "@solana/wallet-adapter-base": "^0.9.22",
+    "@solana/wallet-adapter-react": "^0.15.32",
+    "@solana/wallet-adapter-react-ui": "^0.9.31",
+    "@solana/wallet-adapter-wallets": "^0.19.16",
+    "@solana/web3.js": "^1.75.0",
     "@types/node": "18.15.12",
     "@types/react": "18.0.37",
     "@types/react-dom": "18.0.11",
@@ -21,5 +28,8 @@
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.1",
     "typescript": "5.0.4"
-  }
+  },
+  "main": "index.js",
+  "author": "adlonymous <adlonymous@gmail.com>",
+  "license": "MIT"
 }
